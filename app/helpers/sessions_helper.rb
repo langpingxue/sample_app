@@ -40,6 +40,7 @@ module SessionsHelper
 
   def log_out
   	  # debugger
+  	  
   	  forget(current_user)
       session.delete(:user_id)
       # debugger
